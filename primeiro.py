@@ -1,2 +1,0 @@
-print('primeiro')
-print('segundo')
