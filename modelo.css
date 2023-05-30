@@ -11,6 +11,14 @@ aside > img {
     width: 300px;
     height: 200px;
 }
+aside > img#tv {
+ left: 400px;
+
+}
+select#flista {
+
+    width: 150px;
+} 
 
 p#informacao {
     float: left;
@@ -36,18 +44,39 @@ p#informacao {
     display: block;    
     position: relative;
     width: auto;
+    height: 100%;
     }  
+    main {
+        position: relative;
+        height: 100%;
+        
+     } 
+    footer {
+        top: 3000;
+        display: block;
+        width: 660px;
+        height: auto;
 
-    
+
+    } 
     aside > img {
     
         position: absolute;
         left: 10px;
-        top: 400px;
-        
+        top: 600px;
+        width: 150px;
+        height: 100px;
+
+
       
     }  
 
+    aside > img#tv {
+        top: 400px;
+        left: 10px;
+        width: 300px;
+        height: 200px;
+       }
 }
 
 
