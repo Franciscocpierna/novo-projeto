@@ -15,13 +15,10 @@ aside > img#tv {
  left: 400px;
 
 }
-select#flista {
 
-    width: 150px;
-} 
 
 p#informacao {
-    float: left;
+    
     text-align: justify;
  }
 
@@ -41,27 +38,16 @@ p#informacao {
 @media screen  and (min-width: 80px) and (max-width: 660px) {
     body#corpo {
     padding: 10px;   
-    display: block;    
-    position: relative;
+    /*display: block;    
+    position: relative;*/
     width: auto;
-    height: 100%;
+    height: auto;
     }  
-    main {
-        position: relative;
-        height: 100%;
-        
-     } 
-    footer {
-        top: 3000;
-        display: block;
-        width: 660px;
-        height: auto;
-
-
-    } 
+   
+    
     aside > img {
     
-        position: absolute;
+        /*position: absolute;*/
         left: 10px;
         top: 600px;
         width: 150px;
@@ -72,11 +58,28 @@ p#informacao {
     }  
 
     aside > img#tv {
-        top: 400px;
+      /* position: absolute;*/ 
+        top: 300px;
         left: 10px;
         width: 300px;
-        height: 200px;
+        height: 250px;
        }
+       
+       select#flista {
+        position: absolute;
+        display: block;
+        top: 433px;
+        left: 180px;
+        width: 170px;
+        height: 160px;
+    } 
+    footer {
+        top: auto;
+        width: 660px;
+        height: auto;
+
+
+    } 
 }
 
 
@@ -86,7 +89,7 @@ p#informacao {
     body#corpo {
       padding: 10px;  
       display: block;  
-      position: relative;  
+     /* position: relative;*/  
       width: auto; /*992*/
     }
 
@@ -95,27 +98,46 @@ p#informacao {
         position: absolute;
         left: 460px;
         top: 200px;
-        
-        
+    }     
+        select#flista {
+            display: block;
+            position: relative;  
+            width: 150px;
+            left: 400px;
+        } 
     
     }
-}
+
 
 @media screen and (min-width: 992px) {
 
     body#corpo {
       padding: 10px;   
       display: block;  
-      width: 990px;
+      width: 100%;
     } 
     aside > img {
         position: absolute;
         left: 800px;
         top: 200px;
     }
-    footer {
+    aside > img#tv {
+       /* position: absolute;*/
+        top: 200px;
+        left: 500px;
+        width: 300px;
+        height: 200px;
+       }
+   select#flista {
         display: block;
-        width: 992px;
+        position: relative;  
+        top: 200px;  
+        width: 150px;
+        left: 500px;
+    } 
+    footer {
+        top: 5000;
+        width: 100%;
 
     }  
 }
@@ -125,15 +147,8 @@ p#informacao {
 
 
 
-main {
-   position: relative;
-   height: 100vh;
-   
-} 
 
-section#pgna {
-     position: absolute;
- }
+
 
 
 
@@ -171,10 +186,10 @@ h1:hover {
 
 
 footer {
-    display: block;
+    /*display: block;*/
     background-color: var(--cor5);
     color:blue;
-    width: auto;
+    width: 100%;
     font-size: 0.8em;
     padding: 5px;
 
