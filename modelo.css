@@ -1,28 +1,33 @@
 @charset "UTF-8";
 
-@media all {
-* {
+
+ *{
    margin: 0px;
    padding: 0px;
    
   
 }
-aside > img {
-    width: 300px;
-    height: 200px;
-}
-aside > img#tv {
- left: 400px;
+
+
+select#flista {
+    width: 170px;
+    height: 140px;
 
 }
 
+aside#imagem2 > img#tv {
+  width: 300px;
+  height: 200px
+}
 
-p#informacao {
+ body#corpo {
+    margin: auto;
+    padding: 10px;  
+    display: block;
+    width: auto;
     
-    text-align: justify;
- }
-
-}
+    } 
+   
 
 :root {
     --cor0: #ebe5c5;
@@ -36,111 +41,103 @@ p#informacao {
 }
 
 @media screen  and (min-width: 80px) and (max-width: 660px) {
-    body#corpo {
-    padding: 10px;   
-    /*display: block;    
-    position: relative;*/
-    width: auto;
-    height: auto;
-    }  
-   
+     
+       
+    aside#imagem1 > img#chico {
     
-    aside#imagem1 {
-    
-        /*position: relative;*/
+        position: absolute;
         left: 10px;
-        top: 600px;
-        width: 80px;
-        height: 90px;
+        top: 700px;
+        width: 300px;
+        height: 200px;
 
 
       
     }  
 
     aside#imagem2 > img#tv {
-      /* position: absolute;*/ 
-        top: 300px;
-        left: 10px;
-        width: 300px;
-        height: 250px;
+       
+        padding: 10px;
+        top: 400px;
+        left: 30px;
+       
        }
        
        select#flista {
         position: absolute;
-        display: block;
-        top: 383px;
-        left: 180px;
-        width: 170px;
-        height: 160px;
+             
+        top: 400px;
+        left: 35px;
+        
     } 
-    footer {
-        position: relative;
-        top: 500px;
-        width: 660px;
-        height: auto;
-
-
-    } 
+    
 }
 
 
 
 /*@media screen  and (min-width: 768px) and (max-width: 992px) {*/
 @media screen  and (min-width:661px) and (max-width: 992px) {
-    body#corpo {
-      padding: 10px;  
-      display: block;  
-     /* position: relative;*/  
-      width: auto; /*992*/
-    }
+            
 
-    aside > img {
-        
+    aside#imagem1 > img#chico {
+    
         position: absolute;
         left: 460px;
         top: 200px;
-    }     
+        width: 300px;
+        height: 200px;
+
+
+      
+    }  
+
+        aside#imagem2 > img#tv {
+       
+            padding: 10px;
+            top: 400px;
+            left: 30px;
+            
+           }
+          
+
+             
         select#flista {
-            display: block;
-            position: relative;  
-            width: 150px;
-            left: 400px;
+            position: absolute;
+            top: 385px;
+            left: 35px;
+           
         } 
-    
-    }
+     }
 
 
 @media screen and (min-width: 992px) {
 
-    body#corpo {
-      padding: 10px;   
-      display: block;  
-      width: 100%;
-    } 
-    aside > img {
+    
+    aside#imagem1 > img#chico {
+    
         position: absolute;
         left: 800px;
         top: 200px;
-    }
-    aside > img#tv {
-       /* position: absolute;*/
-        top: 200px;
-        left: 500px;
         width: 300px;
         height: 200px;
-       }
-   select#flista {
-        display: block;
-        position: relative;  
-        top: 200px;  
-        width: 150px;
-        left: 500px;
-    } 
-    footer {
-        top: 5000;
-        width: 100%;
 
+
+      
     }  
+    aside#imagem2 > img#tv {
+        top: 400px;
+        left: 30px;
+        
+       }
+
+       
+   select#flista {
+        position: absolute;  
+        top: 350px;  
+        left: 30px;
+    } 
+
+ 
 }
 
 
@@ -153,15 +150,22 @@ p#informacao {
 
 
 
+ p#informacao {
+   margin-left: 5px;
+   text-align: justify;
+}
 
-body > article > p {
+ .texto {   
   color:  rgb(20, 1, 1);  
   margin-right: auto;
   text-align: justify;
+  margin-left: 15px;
+  padding: 10px;
   width: auto; 
 } 
 
 a {
+    margin: 10px;
     background-color: white;
 } 
  a:hover {
@@ -185,12 +189,14 @@ h1:hover {
     background-color: bisque;
 }
 
-
 footer {
     /*display: block;*/
+    position: absolute;
+    top: 1000px;
     background-color: var(--cor5);
     color:blue;
     width: 100%;
+
     font-size: 0.8em;
     padding: 5px;
 
