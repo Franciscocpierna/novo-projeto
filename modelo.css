@@ -8,7 +8,18 @@
   
 }
 
+.texto > input#botao {
+    position: absolute;
+    border-radius: 10px;
+    color: var(--cor4);
+    left: 10px;
+    height: 30px;
+}
 
+.texto > input#botao:hover {
+      
+    background-color: rgb(227, 227, 239);
+}
 select#flista {
     width: 170px;
     height: 140px;
@@ -21,11 +32,11 @@ aside#imagem2 > img#tv {
 }
 
  body#corpo {
-    margin: auto;
-    padding: 10px;  
+    position: relative;  
     display: block;
     width: auto;
-    
+    padding: 6px;
+    left: 3px;
     } 
    
 
@@ -66,8 +77,8 @@ aside#imagem2 > img#tv {
        select#flista {
         position: absolute;
              
-        top: 400px;
-        left: 35px;
+        top: 435px;
+        left: 30px;
         
     } 
     
@@ -103,8 +114,8 @@ aside#imagem2 > img#tv {
              
         select#flista {
             position: absolute;
-            top: 385px;
-            left: 35px;
+            top: 417px;
+            left: 30px;
            
         } 
      }
@@ -125,7 +136,8 @@ aside#imagem2 > img#tv {
       
     }  
     aside#imagem2 > img#tv {
-        top: 400px;
+        padding: 10px;
+        top: 380px;
         left: 30px;
         
        }
@@ -133,8 +145,8 @@ aside#imagem2 > img#tv {
        
    select#flista {
         position: absolute;  
-        top: 350px;  
-        left: 30px;
+        top: 395px;  
+        left: 28px;
     } 
 
  
@@ -190,7 +202,7 @@ h1:hover {
 }
 
 footer {
-    /*display: block;*/
+    
     position: absolute;
     top: 1000px;
     background-color: var(--cor5);
