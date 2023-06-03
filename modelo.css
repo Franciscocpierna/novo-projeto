@@ -16,6 +16,24 @@
     height: 30px;
 }
 
+body#corpo > div#res {
+   /* display: block;*/
+   /* float: right; */
+    position: absolute;
+    background-color: #ebe5c5;
+    top: 400px;
+    left: 500px;
+    width: 200px;
+    height: 50px;
+
+} 
+.texto > input#botar {
+    position: absolute;
+    border-radius: 10px;
+    color: var(--cor4);
+    left: 500px;
+    height: 30px;
+}
 .texto > input#botao:hover {
       
     background-color: rgb(227, 227, 239);
@@ -77,7 +95,7 @@ aside#imagem2 > img#tv {
        select#flista {
         position: absolute;
              
-        top: 435px;
+        top: 450px;
         left: 30px;
         
     } 
@@ -114,7 +132,7 @@ aside#imagem2 > img#tv {
              
         select#flista {
             position: absolute;
-            top: 417px;
+            top: 430px;
             left: 30px;
            
         } 
@@ -145,7 +163,7 @@ aside#imagem2 > img#tv {
        
    select#flista {
         position: absolute;  
-        top: 395px;  
+        top: 410px;  
         left: 28px;
     } 
 
