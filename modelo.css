@@ -12,13 +12,11 @@
     position: absolute;
     border-radius: 10px;
     color: var(--cor4);
-    left: 10px;
+    left: 35px;
     height: 30px;
 }
 
 body#corpo > div#res {
-   /* display: block;*/
-   /* float: right; */
     position: absolute;
     background-color: #ebe5c5;
     top: 400px;
@@ -38,24 +36,43 @@ body#corpo > div#res {
       
     background-color: rgb(227, 227, 239);
 }
-select#flista {
-    width: 170px;
-    height: 140px;
 
-}
+select#flista {
+    position: absolute;
+    width: 170px;
+    height: 130px;
+    top: 465px;
+    left: 58px;
+    border-radius: 7px;
+     
+} 
 
 aside#imagem2 > img#tv {
-  width: 300px;
-  height: 200px
+       
+    padding: 10px;
+    top: 400px;
+    left: 30px;
+    width: 300px;
+    height: 200px
+    
+        
+   }
+
+   
+ aside#imagem1 > img#chico {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 10px;
+  
 }
 
  body#corpo {
     position: relative;  
     display: block;
     width: auto;
-    padding: 6px;
-    left: 3px;
-    } 
+    padding: 35px;
+    left: 8px;   } 
    
 
 :root {
@@ -73,32 +90,12 @@ aside#imagem2 > img#tv {
      
        
     aside#imagem1 > img#chico {
-    
-        position: absolute;
-        left: 10px;
         top: 700px;
-        width: 300px;
-        height: 200px;
-
-
-      
+        
+   
     }  
 
-    aside#imagem2 > img#tv {
-       
-        padding: 10px;
-        top: 400px;
-        left: 30px;
-       
-       }
-       
-       select#flista {
-        position: absolute;
-             
-        top: 450px;
-        left: 30px;
-        
-    } 
+    
     
 }
 
@@ -109,33 +106,14 @@ aside#imagem2 > img#tv {
             
 
     aside#imagem1 > img#chico {
-    
-        position: absolute;
         left: 460px;
         top: 200px;
-        width: 300px;
-        height: 200px;
-
-
-      
+ 
     }  
-
-        aside#imagem2 > img#tv {
-       
-            padding: 10px;
-            top: 400px;
-            left: 30px;
-            
-           }
-          
-
-             
-        select#flista {
-            position: absolute;
-            top: 430px;
-            left: 30px;
-           
-        } 
+    select#flista {
+        top: 445px;
+    }
+        
      }
 
 
@@ -143,30 +121,14 @@ aside#imagem2 > img#tv {
 
     
     aside#imagem1 > img#chico {
-    
-        position: absolute;
         left: 800px;
         top: 200px;
-        width: 300px;
-        height: 200px;
-
 
       
     }  
-    aside#imagem2 > img#tv {
-        padding: 10px;
-        top: 380px;
-        left: 30px;
-        
-       }
-
-       
-   select#flista {
-        position: absolute;  
-        top: 410px;  
-        left: 28px;
-    } 
-
+    select#flista {
+        top: 427px;
+    }
  
 }
 
@@ -181,7 +143,7 @@ aside#imagem2 > img#tv {
 
 
  p#informacao {
-   margin-left: 5px;
+   margin-left: 10px;
    text-align: justify;
 }
 

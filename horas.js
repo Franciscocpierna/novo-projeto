@@ -9,6 +9,10 @@
      'SE EU ERREI','DINHEIRO NÃO HÁ', 'GIGANTE', 'ILUMINADO',
      'GOSTO DO SAMBA','ALDINHA','AMAR TODA HORA','LESSE','OCEANO','VENTOS', 'BRILHO DO SOL', 'ALMA PENADA', 'SAMBA DA PAZ', 'LAURINHA','VIVER VIVER','BRASIL', 'SILÊNCIO','FAKE NEWS', 'ESPERANÇA', 'COPANHEIRA',  
      ]
+
+     atual= ""
+     
+
 function carregar() {
     
     horas.innerHTML = `<h3>Agora são <strong> ${hora} horas e ${minuto} </strong>minutos</h3>`
@@ -27,17 +31,18 @@ function carregar() {
          item.text = vetores[x]
          listar.appendChild(item)
      }
-     document.getElementById("flista").value='SE EU ERREI'
      
-        
-
+     document.getElementById("flista").value='SE EU ERREI'
+     atual = document.getElementById("flista").value
+     
+   
 }
 
-
-function pegar() {
+function executar() {
      
-     /*res.innerHTML += `<strong>elemento da select é ${listar.lastChild.text}</strong>`*/ 
-     res.innerHTML += `<strong>elemento da select é ${document.getElementById("flista").value}</strong>` 
+     
+    atual = document.getElementById("flista").value
+    res.innerText += ` o valor ${atual}` 
 
 }
 
