@@ -1,5 +1,4 @@
-
-    let res = document.getElementById("res") 
+    let musica = document.getElementById('iframe#videos')  
     let horas = document.getElementById('horas')
     let data = new Date()
     let hora = data.getHours()
@@ -34,7 +33,7 @@ function carregar() {
      
      document.getElementById("flista").value='SE EU ERREI'
      atual = document.getElementById("flista").value
-     
+
    
 }
 
@@ -42,7 +41,27 @@ function executar() {
      
      
     atual = document.getElementById("flista").value
-    res.innerText += ` o valor ${atual}` 
-
+    ifrm = document.createElement("iframe");
+    ifrm.style.width =560+"px";
+    ifrm.style.height =  315+"px";
+    /*document.getElementById("myDIV").style.display = "none";
+    document.getElementById("myDIV").style.display = "none"; */
+    document.body.appendChild(ifrm);
+    document.getElementById('videos').style.display = "none"; 
+   
 }
 
+/*function tocar_video(mysrc){
+	var video = document.createElement('video');
+
+	video.src = mysrc;
+	video.autoplay = true;
+}
+*/
+
+/* ifrm = document.createElement("iframe#videos");
+    ifrm.setAttribute("src", "src="https://www.youtube.com/embed/1P2e0kwkIn4"");
+    ifrm.style.width =560+"px";
+    ifrm.style.height =  315+"px";
+    document.body.appendChild(ifrm);
+  /*  <iframe width="560" height="315" src="https://www.youtube.com/embed/1P2e0kwkIn4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */

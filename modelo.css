@@ -16,7 +16,7 @@
     height: 30px;
 }
 
-body#corpo > div#res {
+/*body#corpo > div#res {
     position: absolute;
     background-color: #ebe5c5;
     top: 400px;
@@ -25,13 +25,7 @@ body#corpo > div#res {
     height: 50px;
 
 } 
-.texto > input#botar {
-    position: absolute;
-    border-radius: 10px;
-    color: var(--cor4);
-    left: 500px;
-    height: 30px;
-}
+*/
 .texto > input#botao:hover {
       
     background-color: rgb(227, 227, 239);
@@ -58,7 +52,14 @@ aside#imagem2 > img#tv {
         
    }
 
+ iframe#videos {
+   position: absolute;
+   display:none;
+
+   top: 600px; 
    
+   }
+     
  aside#imagem1 > img#chico {
     position: absolute;
     width: 300px;
@@ -71,7 +72,7 @@ aside#imagem2 > img#tv {
     position: relative;  
     display: block;
     width: auto;
-    padding: 35px;
+    padding: 25px;
     left: 8px;   } 
    
 
@@ -143,7 +144,7 @@ aside#imagem2 > img#tv {
 
 
  p#informacao {
-   margin-left: 10px;
+   margin-left: 5px;
    text-align: justify;
 }
 
