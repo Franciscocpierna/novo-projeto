@@ -7,6 +7,10 @@
    
   
 }
+/*essa classe definida diretamente nesse arquivo css*/
+.hide {
+    display: none;
+}
 
 .texto > input#botao {
     position: absolute;
@@ -55,11 +59,21 @@ aside#imagem2 > img#tv {
  iframe#videos {
    position: absolute;
    display:none;
-
+   left: 800px; 
    top: 600px; 
    
    }
      
+   div#contem {
+    position: absolute;
+    width: 560px;
+    height: 315px;
+    background-color: red;
+    display:none;
+    left: 800px; 
+    top: 600px; 
+    
+    }
  aside#imagem1 > img#chico {
     position: absolute;
     width: 300px;
