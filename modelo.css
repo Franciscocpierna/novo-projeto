@@ -20,16 +20,9 @@
     height: 30px;
 }
 
-/*body#corpo > div#res {
-    position: absolute;
-    background-color: #ebe5c5;
-    top: 400px;
-    left: 500px;
-    width: 200px;
-    height: 50px;
 
-} 
-*/
+ 
+
 .texto > input#botao:hover {
       
     background-color: rgb(227, 227, 239);
@@ -56,17 +49,7 @@ aside#imagem2 > img#tv {
         
    }
 
- iframe#telavideos {
-   position: absolute;
-   width:420px ;
-   height: 345px;
-   left: 10px;
-   padding: 0px;
-   margin: 0px;
-   margin-left: 0px; 
-   top: 600px; 
-   
-   }
+ 
      
    div#contem {
     position: absolute;
@@ -105,7 +88,7 @@ aside#imagem2 > img#tv {
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
 }
 
-@media screen  and (min-width: 80px) and (max-width: 660px) {
+@media screen  and (min-width: 60px) and (max-width: 660px) {
      
        
     aside#imagem1 > img#chico {
@@ -203,7 +186,7 @@ h1:hover {
 footer {
     
     position: absolute;
-    top: 1250px;
+    top: 650px;
     background-color: var(--cor5);
     color:blue;
     width: 100%;
