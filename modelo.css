@@ -100,10 +100,18 @@ aside#imagem2 > img#tv {
         position: relative;  
         display: block;
         width: auto;
-        padding: 15px;
-        left: 5px;  
+        padding: 0px;
+        left: 0px;  
      } 
-    
+     select#flista {
+        position: absolute;
+        width: 170px;
+        height: 130px;
+        top: 425px;
+        left: 38px;
+        border-radius: 7px;
+         
+    } 
     
 }
 
