@@ -93,13 +93,13 @@ aside#imagem2 > img#tv {
      
        
     aside#imagem1 > img#chico {
-        top: 760px;
+        top: 860px;
        
     }  
     aside#imagem2 > img#tv {
        
         padding: 10px;
-        top: 400px;
+        top: 440px;
         left: 30px;
         width: 400px;
         height: 300px;
@@ -117,8 +117,8 @@ aside#imagem2 > img#tv {
      select#flista {
         position: absolute;
         width: 240px;
-        height: 200px;
-        top: 440px;
+        height: 230px;
+        top: 490px;
         left: 30px;
         border-radius: 7px;
          
