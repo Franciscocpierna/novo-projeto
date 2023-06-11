@@ -74,7 +74,8 @@ aside#imagem2 > img#tv {
     display: block;
     width: auto;
     padding: 25px;
-    left: 8px;   } 
+    left: 8px;   
+} 
    
 
 :root {
@@ -92,11 +93,16 @@ aside#imagem2 > img#tv {
      
        
     aside#imagem1 > img#chico {
-        top: 1000px;
-        
-   
+        top: 700px;
+       
     }  
-
+    body#corpo {
+        position: relative;  
+        display: block;
+        width: auto;
+        padding: 15px;
+        left: 5px;  
+     } 
     
     
 }
@@ -186,7 +192,7 @@ h1:hover {
 footer {
     
     position: absolute;
-    top: 650px;
+    top: 950px;
     background-color: var(--cor5);
     color:blue;
     width: 100%;
